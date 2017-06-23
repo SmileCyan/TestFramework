@@ -6,6 +6,6 @@ spec.homepage     = 'https://github.com/SmileCyan/TestFramework.git'
 spec.authors      = { 'CyanSmile' => 'smile_cyan@163.com' }
 spec.summary      = 'ARC and GCD Compatible Reachability Class for iOS and OS X.'
 spec.source       = { :git => 'https://github.com/SmileCyan/TestFramework.git', :tag => '1.0' }
-spec.source_files = 'TestFramework'
-spec.framework    = 'Foundation'
+spec.source_files = 'TestFramework/**/*.{h,m}'
+spec.framework    = 'Foundation,UIKit'
 end
